@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.todocontainer{
+    margin: 150px auto 0;
+    width: 336px;
+    border-radius: 10px;
+    border: 1px solid #C4C4C4; 
+}
+.yellow{
+    width: 100%;
+    height: 28px;
+    background-color: #FFDC40;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h1{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 13px;
+    text-transform: capitalize;
+}
+.sort1{
+    margin-top: 16px;
+    cursor: pointer;
+    user-select: none;
+}
+.inputcontainer{
+    display: flex;
+    width: 286px;
+    flex-direction: row;
+    margin-left: 28px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin-top: 11px;
+    padding: 5px;
+}
+.buttons{
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 19px;
+    width: 40%;
+    position: relative;
+}
+.plusbtn{
+    width: 42px;
+    height: 42px;
+    border-radius: 71px;    
+    background: #9953F1;
+    outline: none;
+    border: none;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    user-select: none;
+}
+.dobavitbtn{
+    width: 150px;
+    height: 42px;
+    background: #833AE0;
+    outline: none;
+    border: none;
+    border-radius: 71px;
+    color: white;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    user-select: none;
+}
+.listcontain{
+    display: none;
+    width: 286px;
+    flex-direction: row;
+    align-items: baseline;
+    margin-left: 28px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin-top: 11px;
+}
+.listinside{
+    list-style: none;
+    padding: 10px;
+    font-size: 18px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    user-select: none;
+}
+
+.listinside .delete2{
+    float: right;
+    width: 20px;
+    height: 20px;
+}
+.input{
+    width: 88%;
+    outline: none;
+    border: none;
+    margin: auto;
+    cursor: text;
+    font-size: 18px;
+}
+.inputcontainer .delete{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+.edit{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: white; 
+    color: #c4c4c4;
+    border-radius: 15px;
+    text-align: center;
+    border: 1.3px solid #c4c4c4;
+    font-size: 14px; 
+}
+.delete2{
+    margin-left: 6px;
+}
+.editdeletecont{
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.gallant{
+    width: 250px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.removelist{
+    display: none;
+}
+.searchinput{
+    display: none;
+    outline: none;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 18px;
+    width: 80%;
+}
+.searchiconn{
+    cursor: pointer;
+    margin-left: 8px;
+}
+.searchdivv{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 80%;
+}
+.sort2{
+    display: none;
+    margin-top: 16px;
+    cursor: pointer;
+    user-select: none;
+}
